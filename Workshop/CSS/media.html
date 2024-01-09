@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Default styles for all devices */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Style for the main content div */
+    .content {
+      padding: 20px;
+      text-align: center;
+      color: #ffffff; /* White text color */
+    }
+
+    /* Media query for devices with a maximum width of 600 pixels (e.g., smartphones) */
+    @media only screen and (max-width: 600px) {
+      .content {
+        background-color: #ffcc00; /* Yellow */
+      }
+    }
+
+    /* Media query for devices with a minimum width of 601 pixels and a maximum width of 1024 pixels (e.g., tablets) */
+    @media only screen and (min-width: 601px) and (max-width: 1024px) {
+      .content {
+        background-color: #66ccff; /* Light blue */
+      }
+    }
+
+    /* Media query for devices with a minimum width of 1025 pixels (e.g., desktops) */
+    @media only screen and (min-width: 1025px) {
+      .content {
+        background-color: #99ff99; /* Light green */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <h1>Hello, Responsive World!</h1>
+    <p>This is an example using <code>&lt;div&gt;</code> elements with different background colors for various device widths.</p>
+  </div>
+
+</body>
+</html>
